@@ -1,0 +1,6 @@
+
+lanA=10.0.0.0/24
+lanB=172.16.2.0/24
+lanC=192.168.3.0/24
+
+### END DEFAULT CONFIG

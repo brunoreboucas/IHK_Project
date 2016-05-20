@@ -1,0 +1,5 @@
+port_ssh=22
+port_dns=53
+port_http=80
+
+### END DEFAULT CONFIG

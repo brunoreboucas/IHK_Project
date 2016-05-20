@@ -1,0 +1,33 @@
+###
+### PROXY SERVER
+###
+
+host_adapter=eth0
+host_ip=192.168.1.104
+host_MAC=08:00:27:AA:BB:CC
+
+to_server_adapter=eth1
+to_server_ip=172.16.2.2
+to_server_MAC=08:00:27:53:D5:0B
+
+proxy_adapter=eth2
+proxy_ip=10.0.0.1
+proxy_MAC=08:00:27:40:09:C6
+
+###
+### IMITATION DNS
+###
+
+dns_2_cli_ip=192.168.3.1
+dns_2_cli_MAC=08:00:27:7C:D9:9A
+
+dns_2_proxy_ip=172.16.2.1
+dns_2_proxy_MAC=08:00:27:70:0C:84
+
+###
+### Host und Guest IPs: This is to won't be at Production Mode, only to access ssh
+###
+host_ip=192.168.1.104
+guest_ip=192.168.1.107
+
+### END DEFAULT CONFIG

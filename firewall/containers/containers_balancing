@@ -1,0 +1,6 @@
+c_round_ip=172.16.2.22
+c_weighted_ip=172.16.2.23
+c_persistent_ip=172.16.2.24
+c_least_conn_ip=172.16.2.25
+
+### END DEFAULT CONFIG

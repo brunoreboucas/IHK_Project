@@ -1,0 +1,13 @@
+apache1_ip=10.0.0.11
+apache1_MAC=08:00:27:8E:23:0E
+
+apache2_ip=10.0.0.22
+apache2_MAC=08:00:27:4F:6C:29
+
+apache3_ip=10.0.0.33
+apache3_MAC=08:00:27:71:3B:8B
+
+coreos_ip=10.0.0.44
+coreos_MAC=08:00:27:B3:D2:B6
+
+### END DEFAULT CONFIG
