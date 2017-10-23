@@ -18,10 +18,6 @@ source $DIRECTORY/servers/servers_singles
 ####################################
 # echo -e "\e[1;33m 7.2- SET PROXY SERVERS RULES"; tput sgr0
 
-###
-### SINGLE
-###
-
 ### PING
 echo -e "\e[1;33m 7.2.1- SERVER SINGLE PING"; tput sgr0
 $fw -A INPUT -p icmp --icmp-type 8 -i $to_server_adapter -s $lanB -d $single_ip -j ACCEPT
