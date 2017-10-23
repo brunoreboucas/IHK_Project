@@ -40,6 +40,7 @@ then
 
       echo "" ; echo -e "\e[1;33m RESTART PROXY"; tput sgr0
       service nginx restart
+
     else
       echo "Server chosen is not Load-Balancing..."
     fi
