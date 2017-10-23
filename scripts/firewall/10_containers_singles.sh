@@ -19,10 +19,6 @@ source $DIRECTORY/containers/containers_singles
 ####################################
 # echo -e "\e[1;33m 10.2- SET CONTAINERS SINGLES RULES"; tput sgr0
 
-###
-### C-SINGLE
-###
-
 ### PING
 echo -e "\e[1;33m 10.2.1- SERVER C-SINGLE: PING"; tput sgr0
 $fw -A INPUT -p icmp --icmp-type 8 -i $to_server_adapter -s $lanB -d $c_single_ip -j ACCEPT
